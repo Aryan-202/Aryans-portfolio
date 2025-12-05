@@ -1,5 +1,6 @@
 import { Background } from "@/components/Background";
 import Header from "./Header";
+import Footer from "../ui/Footer/Footer";
 import { useEffect } from "react";
 
 export function Layout({ children }: { children: React.ReactNode }) {
@@ -30,12 +31,13 @@ export function Layout({ children }: { children: React.ReactNode }) {
   }, []);
 
   return (
-    <div className="relative min-h-screen">
+    <div className="relative min-h-screen flex flex-col">
       <Background />
       <Header />
-      <main className="relative z-10">
+      <main className="relative z-10 flex-grow">
         {children}
       </main>
+      <Footer />
     </div>
   );
 }
