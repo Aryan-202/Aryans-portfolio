@@ -83,6 +83,12 @@ import zig from "./icons/zig-icon.svg";
 import solidity from "./icons/solidity-icon.svg";
 import liquibase from "./icons/liquibase-icon.svg";
 
+//social
+import fiverr from "./social/fiverr-icon.svg";
+import gmail from "./social/Gmail_icon.svg";
+import linkedin from "./social/LinkedIn_icon.svg";
+import x from "./social/twitter-x.svg";
+
 export const icons = {
   //languages
   julia,
@@ -168,4 +174,13 @@ export const icons = {
   zig,
   solidity,
   liquibase,
+};
+
+export const preview_img = {};
+
+export const social = {
+  x,
+  gmail,
+  linkedin,
+  fiverr,
 };
