@@ -56,19 +56,32 @@ import arduino from "./icons/arduino-icon.svg";
 
 //tools
 import pythonpoetry from "./icons/pythonpoetry-icon.svg";
-import github from './icons/github-icon.svg'
-import git from './icons/git-icon.svg'
-import bun from './icons/bun-icon.svg'
-import docker from './icons/docker-icon.svg'
-import npm from './icons/npm-icon.svg'
-import yarn from './icons/yarn-icon.svg'
-import firebase from './icons/firebase-icon.svg'
-import azure from './icons/azure-icon.svg'
-import googlecloud from './icons/googlecloud-icon.svg'
-import chatgpt from './icons/chatgpt-icon.svg'
-import copilot from './icons/copilot-icon.svg'
-import claude from './icons/claude-icon.svg'
+import github from "./icons/github-icon.svg";
+import git from "./icons/git-icon.svg";
+import bun from "./icons/bun-icon.svg";
+import docker from "./icons/docker-icon.svg";
+import npm from "./icons/npm-icon.svg";
+import yarn from "./icons/yarn-icon.svg";
+import firebase from "./icons/firebase-icon.svg";
+import azure from "./icons/azure-icon.svg";
+import googlecloud from "./icons/googlecloud-icon.svg";
+import chatgpt from "./icons/chatgpt-icon.svg";
+import copilot from "./icons/copilot-icon.svg";
+import claude from "./icons/claude-icon.svg";
 
+//exploring
+import astro from "./icons/astro-icon.svg";
+import aws from "./icons/aws-icon.svg";
+import couchdb from "./icons/couchdb-icon.svg";
+import nestjs from "./icons/nestjs-icon.svg";
+import new4j from "./icons/new4j-icon.svg";
+import nixos from "./icons/nixos-icon.svg";
+import phoenixframework from "./icons/phoenixframework-icon.svg";
+import threejs from "./icons/threejs-icon.svg";
+import webassembly from "./icons/webassembly-icon.svg";
+import zig from "./icons/zig-icon.svg";
+import solidity from './icons/solidity-icon.svg'
+import liquibase from './icons/liquibase-icon.svg'
 
 export const icons = {
   //languages
@@ -128,5 +141,29 @@ export const icons = {
   arduino,
 
   //tools
-  pythonpoetry,npm,github,bun,git,docker,yarn,firebase,azure,googlecloud,chatgpt,copilot,claude
+  pythonpoetry,
+  npm,
+  github,
+  bun,
+  git,
+  docker,
+  yarn,
+  firebase,
+  azure,
+  googlecloud,
+  chatgpt,
+  copilot,
+  claude,
+
+  //exploring
+  astro,
+  aws,
+  couchdb,
+  nestjs,
+  new4j,
+  nixos,
+  phoenixframework,
+  threejs,
+  webassembly,
+  zig,solidity,liquibase
 };
