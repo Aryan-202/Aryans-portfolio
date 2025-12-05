@@ -84,18 +84,16 @@ export const skills: Skill[] = [
   { name: "Claude", icon: icons.claude, category: "tools" },
 
   // exploring
-  {name: "Astro", icon: icons.astro, category: 'exploring'},
-  {name: "AWS", icon: icons.aws, category: 'exploring'},
-  {name: "CouchDB", icon: icons.couchdb, category: 'exploring'},
-  {name: "Nest.js", icon: icons.nestjs, category: 'exploring'},
-  {name: "New4j", icon: icons.new4j, category: 'exploring'},
-  {name: "NixOS", icon: icons.nixos, category: 'exploring'},
-  {name: "Phoenix Framework", icon: icons.phoenixframework, category: 'exploring'},
-  {name: "Three.js", icon: icons.threejs, category: 'exploring'},
-  {name: "Web Assembly", icon: icons.webassembly, category: 'exploring'},
-  {name: "Zig", icon: icons.zig, category: 'exploring'},
-  {name: "Solidity", icon: icons.solidity, category: 'exploring'},
-  {name: "Liquibase", icon: icons.liquibase, category: 'exploring'},
-  
-  
+  { name: "Astro", icon: icons.astro, category: "exploring" },
+  { name: "AWS", icon: icons.aws, category: "exploring" },
+  { name: "CouchDB", icon: icons.couchdb, category: "exploring" },
+  { name: "Nest.js", icon: icons.nestjs, category: "exploring" },
+  { name: "New4j", icon: icons.new4j, category: "exploring" },
+  { name: "NixOS", icon: icons.nixos, category: "exploring" },
+  { name: "Phoenix Framework", icon: icons.phoenixframework, category: "exploring" },
+  { name: "Three.js", icon: icons.threejs, category: "exploring" },
+  { name: "Web Assembly", icon: icons.webassembly, category: "exploring" },
+  { name: "Zig", icon: icons.zig, category: "exploring" },
+  { name: "Solidity", icon: icons.solidity, category: "exploring" },
+  { name: "Liquibase", icon: icons.liquibase, category: "exploring" },
 ];

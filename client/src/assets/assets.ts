@@ -80,8 +80,8 @@ import phoenixframework from "./icons/phoenixframework-icon.svg";
 import threejs from "./icons/threejs-icon.svg";
 import webassembly from "./icons/webassembly-icon.svg";
 import zig from "./icons/zig-icon.svg";
-import solidity from './icons/solidity-icon.svg'
-import liquibase from './icons/liquibase-icon.svg'
+import solidity from "./icons/solidity-icon.svg";
+import liquibase from "./icons/liquibase-icon.svg";
 
 export const icons = {
   //languages
@@ -165,5 +165,7 @@ export const icons = {
   phoenixframework,
   threejs,
   webassembly,
-  zig,solidity,liquibase
+  zig,
+  solidity,
+  liquibase,
 };
