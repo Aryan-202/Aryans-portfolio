@@ -3,7 +3,7 @@ import { icons } from '@/assets/assets.ts'
 export interface Skills {
   name: String;
   icon: String;
-  category: 'languages' | 'frameworks' | 'libraries' | 'Softwares' | 'exploring';
+  category: 'languages' | 'frameworks' | 'libraries' | 'softwares' | 'tools' | 'exploring';
 }
 
 export const skills: Skills[] = [
@@ -15,7 +15,7 @@ export const skills: Skills[] = [
   {name: 'Kotlin', icon: icons.kotlin, category: 'languages'},
   {name: 'Typescript', icon: icons.typescript, category: 'languages'},
   {name: 'R', icon: icons.r, category: 'languages'},
-
+  {name: 'Dart', icon: icons.dart, category: 'languages'},
 
   // frameworks
   {name: 'Tauri', icon: icons.tauri, category: 'frameworks' },
@@ -23,7 +23,11 @@ export const skills: Skills[] = [
   {name: 'Qwik', icon: icons.qwik, category: 'frameworks'},
   {name: 'SolidJs', icon: icons.solidjs, category: 'frameworks'},
   {name: 'Laravel', icon: icons.laravel, category: 'frameworks'},
-  {name: '', icon: icons.nextjs, category: 'frameworks'},
+  {name: 'Nextjs', icon: icons.nextjs, category: 'frameworks'},
+  {name: 'Flutter', icon: icons.flutter, category: 'frameworks'}
+
+  //libraries
+  
 
 ]
 
