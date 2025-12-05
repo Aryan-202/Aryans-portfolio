@@ -71,4 +71,16 @@ export const skills: Skill[] = [
 
   // Tools
   { name: "Poetry", icon: icons.pythonpoetry, category: "tools" },
+  { name: "GitHub", icon: icons.github, category: "tools" },
+  { name: "NPM", icon: icons.npm, category: "tools" },
+  { name: "Docker", icon: icons.docker, category: "tools" },
+  { name: "Yarn", icon: icons.yarn, category: "tools" },
+  { name: "Bun", icon: icons.bun, category: "tools" },
+  { name: "Firebase", icon: icons.firebase, category: "tools" },
+  { name: "Azure", icon: icons.azure, category: "tools" },
+  { name: "Google Cloud", icon: icons.googlecloud, category: "tools" },
+  { name: "ChatGPT", icon: icons.chatgpt, category: "tools" },
+  { name: "Copilot", icon: icons.copilot, category: "tools" },
+  { name: "Claude", icon: icons.claude, category: "tools" },
+  
 ];

@@ -56,6 +56,19 @@ import arduino from "./icons/arduino-icon.svg";
 
 //tools
 import pythonpoetry from "./icons/pythonpoetry-icon.svg";
+import github from './icons/github-icon.svg'
+import git from './icons/git-icon.svg'
+import bun from './icons/bun-icon.svg'
+import docker from './icons/docker-icon.svg'
+import npm from './icons/npm-icon.svg'
+import yarn from './icons/yarn-icon.svg'
+import firebase from './icons/firebase-icon.svg'
+import azure from './icons/azure-icon.svg'
+import googlecloud from './icons/googlecloud-icon.svg'
+import chatgpt from './icons/chatgpt-icon.svg'
+import copilot from './icons/copilot-icon.svg'
+import claude from './icons/claude-icon.svg'
+
 
 export const icons = {
   //languages
@@ -115,5 +128,5 @@ export const icons = {
   arduino,
 
   //tools
-  pythonpoetry,
+  pythonpoetry,npm,github,bun,git,docker,yarn,firebase,azure,googlecloud,chatgpt,copilot,claude
 };
