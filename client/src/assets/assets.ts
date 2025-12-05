@@ -36,9 +36,9 @@ import pandas from "./icons/pandas-icon.svg";
 import numpy from "./icons/numpy-icon.svg";
 import matplotlib from "./icons/matplotlib-icon.svg";
 import networkx from "./icons/networkx-icon.svg";
-import postgresql from './icons/postgressql-icon.svg'
-import mongodb from './icons/mongodb-icon.svg'
-import express from './icons/express-icon.svg'
+import postgresql from "./icons/postgressql-icon.svg";
+import mongodb from "./icons/mongodb-icon.svg";
+import express from "./icons/express-icon.svg";
 
 //softwares
 import anaconda from "./icons/anaconda-icon.svg";
@@ -95,7 +95,10 @@ export const icons = {
   pandas,
   numpy,
   matplotlib,
-  networkx,postgresql,mongodb,express,
+  networkx,
+  postgresql,
+  mongodb,
+  express,
 
   //softweres
   jupyter,
