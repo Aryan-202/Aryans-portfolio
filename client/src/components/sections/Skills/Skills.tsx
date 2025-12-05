@@ -82,9 +82,7 @@ const Skills = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold">{categoryConfig[category].title}</h3>
-                    <p className="text-sm text-muted-foreground">
-                      {skillsByCategory[category].length} skills
-                    </p>
+                    
                   </div>
                 </div>
 
