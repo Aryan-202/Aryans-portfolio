@@ -1,23 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { personalInfo } from "@/data/personalInfo";
 import { socialLinks } from "@/data/socialLinks";
-import { Github, Linkedin, Mail, Twitter, Download } from "lucide-react";
+import { Download } from "lucide-react";
 import { motion } from "motion/react";
 
 const Hero = () => {
-  const getIcon = (iconName: string) => {
-    switch (iconName) {
-      case "github":
-        return <Github className="w-5 h-5" />;
-      case "linkedin":
-        return <Linkedin className="w-5 h-5" />;
-      case "twitter":
-        return <Twitter className="w-5 h-5" />;
-      default:
-        return <Mail className="w-5 h-5" />;
-    }
-  };
-
   return (
     <section id="home" className="min-h-screen flex items-center justify-center px-4 pt-20">
       <div className="container mx-auto max-w-6xl">
@@ -95,14 +82,19 @@ const Hero = () => {
                   href={link.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="p-3 rounded-full border hover:bg-accent hover:text-accent-foreground transition-all duration-300 hover:scale-110"
+                  className="p-3 rounded-full border hover:bg-accent hover:text-accent-foreground transition-all duration-300 hover:scale-110 flex items-center justify-center"
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.95 }}
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.8 + index * 0.1 }}
                 >
-                  {getIcon(link.icon)}
+                  {/* Use the imported icon directly */}
+                  <img 
+                    src={link.icon} 
+                    alt={link.name}
+                    className="w-5 h-5"
+                  />
                   <span className="sr-only">{link.name}</span>
                 </motion.a>
               ))}
@@ -125,36 +117,6 @@ const Hero = () => {
                   className="w-full h-full object-cover rounded-full"
                 />
               </div>
-              
-              {/* Floating Elements */}
-              <motion.div
-                className="absolute -top-4 -right-4 w-24 h-24 rounded-full bg-primary/10 border border-primary/20 flex items-center justify-center"
-                animate={{
-                  y: [0, -10, 0],
-                }}
-                transition={{
-                  duration: 3,
-                  repeat: Infinity,
-                  ease: "easeInOut"
-                }}
-              >
-                <span className="text-sm font-semibold">🥰</span>
-              </motion.div>
-              
-              <motion.div
-                className="absolute -bottom-4 -left-4 w-20 h-20 rounded-full bg-primary/10 border border-primary/20 flex items-center justify-center"
-                animate={{
-                  y: [0, 10, 0],
-                }}
-                transition={{
-                  duration: 4,
-                  repeat: Infinity,
-                  ease: "easeInOut",
-                  delay: 1
-                }}
-              >
-                <span className="text-sm font-semibold">❤️</span>
-              </motion.div>
             </div>
           </motion.div>
         </div>

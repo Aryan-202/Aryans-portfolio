@@ -1,18 +1,20 @@
+import { icons, social } from "@/assets/assets"
+
 export const socialLinks = [
   {
     name: "GitHub",
     url: "https://github.com/Aryan-202",
-    icon: "github"
+    icon: icons.github
   },
   {
     name: "LinkedIn",
     url: "https://www.linkedin.com/in/aryan-vishwakarma-387927321/",
-    icon: "linkedin"
+    icon: social.linkedin
   },
   {
     name: "Twitter",
     url: "https://x.com/AryanxSenpai",
-    icon: "twitter"
+    icon: social.x
   },
   
 ]
