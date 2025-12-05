@@ -1,38 +1,12 @@
-.skills {
-  position: relative;
-}
-
-.skillItem {
+.skillIcon {
   transition: all 0.3s ease;
 }
 
-.skillItem:hover {
-  transform: translateX(5px);
+.skillIcon:hover {
+  transform: translateY(-5px) scale(1.1);
 }
 
-/* Animation for skill bars */
-@keyframes skillFill {
-  from {
-    transform: scaleX(0);
-  }
-  to {
-    transform: scaleX(1);
-  }
-}
-
-.skillLevel {
-  animation: skillFill 1s ease-out;
-}
-
-/* Gradient text for headings */
-.gradientText {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-/* Pulse animation for featured skills */
+/* Pulse animation for exploring items */
 @keyframes pulse {
   0%, 100% {
     opacity: 1;
@@ -42,6 +16,26 @@
   }
 }
 
-.pulseAnimation {
+.exploring {
   animation: pulse 2s ease-in-out infinite;
+}
+
+/* Gradient text for category titles */
+.categoryTitle {
+  background: linear-gradient(135deg, var(--primary), var(--primary-foreground));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Glass effect for skill cards */
+.glassCard {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.dark .glassCard {
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
