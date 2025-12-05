@@ -17,7 +17,6 @@ export function Layout({ children }: { children: React.ReactNode }) {
       });
     }, observerOptions);
 
-    // Observe all sections
     const sections = document.querySelectorAll('section');
     sections.forEach((section) => {
       observer.observe(section);
