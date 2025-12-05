@@ -169,3 +169,8 @@ export const icons = {
   solidity,
   liquibase,
 };
+
+
+export const preview_img = {
+  
+}

@@ -1,6 +1,6 @@
 import { Background } from "@/components/Background";
 import Header from "./Header";
-import Footer from "../ui/Footer/Footer";
+import Footer from "./Footer";
 import { useEffect } from "react";
 
 export function Layout({ children }: { children: React.ReactNode }) {
