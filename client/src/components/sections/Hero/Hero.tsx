@@ -93,7 +93,7 @@ const Hero = () => {
                   <img 
                     src={link.icon} 
                     alt={link.name}
-                    className="w-5 h-5"
+                    className="w-5 h-5 dark:invert"
                   />
                   <span className="sr-only">{link.name}</span>
                 </motion.a>

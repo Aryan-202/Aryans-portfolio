@@ -1,10 +1,10 @@
-import { icons, social } from "@/assets/assets"
+import { social } from "@/assets/assets"
 
 export const socialLinks = [
   {
     name: "GitHub",
     url: "https://github.com/Aryan-202",
-    icon: icons.github
+    icon: social.github_social
   },
   {
     name: "LinkedIn",
