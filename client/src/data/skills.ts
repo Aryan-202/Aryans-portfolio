@@ -97,6 +97,3 @@ export const skills: Skill[] = [
   { name: "Solidity", icon: icons.solidity, category: "exploring" },
   { name: "Liquibase", icon: icons.liquibase, category: "exploring" },
 ];
-
-
-
