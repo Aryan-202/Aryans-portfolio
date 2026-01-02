@@ -54,6 +54,7 @@ const Header = () => {
     { id: 'contact', label: 'Contact' },
   ];
 
+  
   return (
     <header className={`fixed top-3 sm:top-6 left-1/2 transform -translate-x-1/2 z-50 bg-background/80 backdrop-blur-md border shadow-lg w-[95%] sm:w-[90%] max-w-4xl ${isMobileMenuOpen || isAnimating ? 'rounded-[2rem]' : 'rounded-full'}`}>
       <div className="container mx-auto px-3 sm:px-6 py-2 sm:py-3">
