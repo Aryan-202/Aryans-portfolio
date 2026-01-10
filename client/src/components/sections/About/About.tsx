@@ -100,15 +100,6 @@ const About = () => {
                   </div>
                 </div>
 
-                {/* <div className="flex items-center gap-4">
-                  <div className="p-3 bg-primary/10 rounded-lg">
-                    <Mail className="w-6 h-6 text-primary" />
-                  </div>
-                  <div>
-                    <p className="text-sm text-muted-foreground">Email</p>
-                    <p className="font-medium text-lg">{personalInfo.email}</p>
-                  </div>
-                </div> */}
 
                 <div className="flex items-center gap-4">
                   <div className="p-3 bg-primary/10 rounded-lg">
@@ -160,21 +151,6 @@ const About = () => {
                   </div>
                 </div>
               </div>
-
-              {/* Additional Skills Preview */}
-              {/* <div className="mt-8 pt-6 border-t border-border">
-                <h5 className="text-lg font-semibold mb-4">Tech Stack</h5>
-                <div className="flex flex-wrap gap-2">
-                  {["React", "TypeScript", "Node.js", "MongoDB", "Tailwind", "AWS"].map((tech) => (
-                    <span 
-                      key={tech}
-                      className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium"
-                    >
-                      {tech}
-                    </span>
-                  ))}
-                </div>
-              </div> */}
             </Card>
           </motion.div>
         </div>
